@@ -8,5 +8,9 @@
     <string name="speichern">Speichern</string>
     <string name="highscoretext">Bitte hier den Highscore/Text eingeben:</string>
     <string name="save">Save</string>
+    <string name="lesen">Lesen</string>
+    <string name="read">Read</string>
+    <string name="read1">Read</string>
+    <string name="readstring">Read</string>
 
 </resources>
