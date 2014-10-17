@@ -28,7 +28,7 @@ public class ReadWriteDeleteFiles {
 			//Mode Private: Zugriff nur innerhalb dieser Anwendung erlaubt
 			//Mode Append: Daten an bestehender Datei anhängen
 			os = context.getApplicationContext().openFileOutput("eingabe",
-					Context.MODE_PRIVATE|Context.MODE_APPEND);
+					Context.MODE_PRIVATE);
 			writer = new OutputStreamWriter(os);
 			writer.write(zuschreibendedaten);
 			writer.close();
